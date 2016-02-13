@@ -1,0 +1,665 @@
+
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]>
+  <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
+<![endif]-->
+
+<!--[if IE 7]>
+  <html class="no-js lt-ie9 lt-ie8" lang="en">
+<![endif]-->
+
+<!--[if IE 8]>
+  <html class="no-js lt-ie9" lang="en">
+<![endif]-->
+
+<!--[if gt IE 8]>
+<!-->
+  <html lang="en">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <title>
+    Mozilla Reps - MozSetup@ISM
+  </title>
+  <link rel="shortcut icon" href="/static/base/img/remo/shortcut.ico" />
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="/static/CACHE/css/00309d9dbab8.css" type="text/css" media="screen" /><link rel="stylesheet" href="/static/CACHE/css/c971b725a08d.css" type="text/css" media="screen,projection,tv,print" />   
+  <!--[if lt IE 9]>
+      <link rel="stylesheet" href="/static/CACHE/css/c9376f869531.css" type="text/css" media="screen,projection,tv" />  <![endif]-->
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+      <script type="text/javascript" src="/static/CACHE/js/3948ccddab6f.js"></script>  <![endif]-->
+
+  <!-- Bing ownership verification -->
+  <meta name="msvalidate.01" content="B7B177115A634927D608514DA17B2574" />
+
+  <meta property="og:title" content="MozSetup@ISM - Mozilla Reps" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://reps.mozilla.org/e/mozsetup-ism/" />
+<meta property="og:image" content="/static/base/img/remo/remo-logo-og.jpg" />
+<meta property="og:description" content="This is the first Mozilla event at ISM,Dhanbad. The event is a stepping stone to building and engaging with a big developer community from eastern part of India.The event will focus on connected ...">
+  <!-- our css is always last to override stuff -->
+  <link rel="stylesheet" href="/static/CACHE/css/60af1b070869.css" type="text/css" media="screen,projection,tv" />  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35433268-27']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_setAllowAnchor', true]);
+  _gaq.push(['_gat._anonymizeIp']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = 'https://ssl.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body data-mapbox-token="mozilla-webprod.g7im6jee">
+  <!-- BrowserID -->
+  
+<div id="browserid-info"
+     style="display: none;"
+     data-info="{&quot;loginUrl&quot;: &quot;/browserid/login/&quot;, &quot;requestArgs&quot;: {&quot;siteName&quot;: &quot;Mozilla Reps&quot;, &quot;siteLogo&quot;: &quot;/static/base/img/remo/remo_logo_medium.png&quot;}, &quot;logoutUrl&quot;: &quot;/browserid/logout/&quot;, &quot;csrfUrl&quot;: &quot;/browserid/csrf/&quot;}">
+</div>
+
+
+  <!-- Wrapper for background -->
+  <div id="wrapper">
+
+    <!-- container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="row">
+        <div class="large-12 columns">
+
+          <!-- Sign In & Tabzilla Tab -->
+
+            <!-- Tabzilla Tab -->
+            <div id="tabzilla" class="hide-on-print">
+              <a href="https://www.mozilla.org/">Mozilla</a>
+            </div>
+
+            <!-- Sign In & Sign Out -->
+            <div class="large-10 small-10 columns hide-on-print" id="login-box">
+              <div class="account anonymous nomenu logout">
+                                                                                          <span id="login-menu-locator">
+                    
+
+<a href="#" data-next="/e/mozsetup-ism/" class="browserid-login persona-button" >
+	<span>Sign in</span>
+</a>
+
+                  </span>
+                  or
+                  <a href="#" data-reveal-id="join-modal">Join</a>
+                              </div>
+          </div>
+
+          <!-- Logo & Navigation -->
+          <div class="logo-nav">
+
+            <!-- Logo and Wordmark -->
+            <div class="large-3 columns" id="logo-box">
+              <div class="row">
+                <a class="logo" href="/">
+                  <img src="/static/base/img/remo/remo_logo_medium.png"
+                       alt="Mozilla Reps logo">
+                                    <h2><span class="metabold">mozilla</span> reps</h2>
+                                  </a>
+              </div>
+            </div>
+
+            <!-- Navigation -->
+            <nav role="navigation" class="large-9 columns hide-for-small" id="navigation-box">
+              <ul class="button-group">
+                <li>
+                                      <a href="/"
+                       id="main-menu-locator"
+                       class="main ">Main</a>
+                                  </li>
+                <li>
+                  <a href="/people/"
+                     id="people-menu-locator"
+                     class="main ">People</a>
+                </li>
+                <li>
+                  <a href="/events/"
+                     id="events-menu-locator"
+                     class="main ">Events</a>
+                </li>
+                <li>
+                  <a href="https://blog.mozilla.org/mozillareps"
+                     id="blog-menu-locator"
+                     class="main">Blog</a>
+                </li>
+                <li>
+                  <a href="http://planet.mozillareps.org"
+                     id="planet-menu-locator"
+                     class="main">Planet</a>
+                </li>
+                <li>
+                  <a href="https://wiki.mozilla.org/ReMo"
+                     id="wiki-menu-locator"
+                     class="main">Wiki</a>
+                </li>
+                <li>
+                  <a href="/labs/"
+                     id="labs-menu-locator"
+                     class="main ">Labs</a>
+                </li>
+                <li class="last">
+                  <a href="/faq/"
+                     id="faq-menu-locator"
+                     class="main ">FAQ</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Mobile Navigation -->
+            <nav role="navigation" class="small-12 show-for-small hide-on-print" id="navigation-box-mobile">
+              <ul class="button-group">
+                <li>
+                                      <a href="/"
+                       class="main ">Main</a>
+                                  </li>
+                <li>
+                  <a href="/people/"
+                     class="main ">People</a>
+                </li>
+                <li class="last">
+                  <a href="/events/" class="main">Events</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- Separator -->
+      <div class="row hide-on-print">
+        <hr>
+      </div>
+
+      <!-- Page Content -->
+      
+      <!-- Client-side messages -->
+      <div class="row hide-on-print">
+        <div id="client-message-container" class="hidden large-12 columns">
+          <div class="alert-box">
+            <a href="#" class="close">&times;</a>
+          </div>
+        </div>
+      </div>
+
+      <main role="main" class="events-main">
+  <div class="row">
+    <div class="large-8 columns">
+      <h1 class="event-single-title">MozSetup@ISM</h1>
+    </div>
+    <div class="large-4 columns align-right hide-for-small">
+      <a href="/e/mozsetup-ism/ical/"
+         role="button"
+         class="small button">
+        iCalendar
+      </a>
+          </div>
+  </div>
+
+  <div class="row">
+    <div class="large-5 columns">
+      <div class="row">
+        <div class="large-1 columns">
+          <div class="pict-icon large time"></div>
+        </div>
+        <div class="large-11 columns">
+          <div class="row">
+            <div class="large-10 columns end">
+
+                <div class="event-single-date">
+                  <div class="row">
+                                                                  <div class="large-12 columns">
+                        <div class="large-11 small-11 columns">
+                          <div class="row">
+                            <div class="large-7 small-6 columns date">
+                              <time datetime="2016-03-04 10:00:00+05:30">
+                                04 MAR 2016
+                              </time>
+                            </div>
+                            <div class="large-5 small-6 columns day">
+                              Friday
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="large-7 small-6 columns date">
+                              <time datetime="2016-03-04 10:00:00+05:30">
+                                06 MAR 2016
+                              </time>
+                            </div>
+                            <div class="large-5 small-6 columns day">
+                              Sunday
+                            </div>
+                          </div>
+                        </div>
+                        <div class="large-1 small-1 columns">
+                          <div class="tip-bottom"
+                               data-tooltip
+                               data-width="120"
+                               data-date-start="2016-03-04T04:30:00"
+                               data-date-end="2016-03-06T04:30:00"
+                               data-date-local-start="2016-03-04T10:00:00"
+                               data-date-local-end="2016-03-06T10:00:00"
+                               data-is-multidate="true"
+                               id="datetime-tip">
+                            <div class="pict-icon small time"></div>
+                          </div>
+                        </div>
+                      </div>
+                                      </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-1 columns">
+          <div class="pict-icon large tag"></div>
+        </div>
+        <div class="large-11 columns">
+          <!-- Event Campaing/Intiatives -->
+                      <p>
+              <span class="label inline">
+                Initiative
+              </span>
+              <a href="/events/#/initiative/firefox os participation/">
+                 Firefox OS Participation
+              </a>
+            </p>
+                    <!-- Event categories -->
+                      <p>
+              <span class="label inline">
+                Category
+              </span>
+                              <a href="/events/#/category/firefox os/">
+                  Firefox OS</a>                          </p>
+                    <!-- Display external URL if it exists -->
+                                <p>
+              <span class="label inline">
+                Hashtag
+              </span>
+              #hackfestISM #GrowMozilla #ConnectedDevices
+            </p>
+                    <!-- Description -->
+          <p>
+            <span class="label inline">
+              Description
+            </span>
+            This is the first Mozilla event at ISM,Dhanbad. The event is a stepping stone to building and engaging with a big developer community from eastern part of India.The event will focus on connected devices and a hack-a-thon around how FirefoxOS is changing the IoT ecosystem.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-1 columns">
+          <div class="pict-icon large share"></div>
+        </div>
+        <div class="large-11 columns">
+          <ul class="social-share">
+            <li>
+              <a class="fb has-tip tip-bottom"
+                 title="Share on Facebook"
+                 target="_blank"
+                 data-tooltip
+                 href="https://www.facebook.com/sharer/sharer.php?u=https://reps.mozilla.org/e/mozsetup-ism/">
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a class="tw has-tip tip-bottom"
+                 title="Share on Twitter"
+                 target="_blank"
+                 data-tooltip
+                 href="http://twitter.com/share?url=https://reps.mozilla.org/e/mozsetup-ism/&amp;via=mozillareps&amp;text=Mozilla%20Reps%20-%20MozSetup%40ISM">
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a class="gp has-tip tip-bottom"
+                 title="Share on Google+"
+                 target="_blank"
+                 data-tooltip
+                 href="https://plus.google.com/share?url=https://reps.mozilla.org/e/mozsetup-ism/&amp;hl=en-US">
+                Google +
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="large-7 columns">
+      <div class="row">
+        <div class="large-1 columns">
+          <div class="pict-icon large pin"></div>
+        </div>
+        <div class="large-11 columns">
+          <div class="row">
+            <div class="large-5 columns">
+              <p>
+                <span class="label inline">
+                  Venue
+                </span>
+                ISM Dhanbad
+              </p>
+              <p>
+                <span class="label inline">
+                  City
+                </span>
+                Dhanbad
+              </p>
+                            <p>
+                <span class="label inline">
+                  Region
+                </span>
+                Jharkhand
+              </p>
+                            <p>
+                <span class="label inline">
+                  Country
+                </span>
+                India
+              </p>
+              <p class="event-single-map-link">
+                <span class="label inline">
+                  Map Link
+                </span>
+                <a href="http://openstreetmap.org/?mlat=25.5749421083&amp;mlon=85.2761993464&amp;zoom=15"
+                   target="_blank">
+                  OSM
+                </a>
+                -
+                <a href="https://maps.google.com/maps?ll=25.5749421083,85.2761993464&amp;q=MozSetup%40ISM@25.5749421083,85.2761993464&amp;zoom=15"
+                   target="_blank">
+                  G Maps
+                </a>
+              </p>
+            </div>
+            <div class="large-7 columns smallmap-profile-container">
+              <div id="map" class="map200"
+                   data-lat="25.5749421083" data-lon="85.2761993464">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- START Mashup code -->
+  <div class="row">
+    <div class="large-12 columns hide-for-small">
+      <div class="flickr-feed" >
+        <div id="flickr-mashup" data-hashtag="#hackfestISM #GrowMozilla #ConnectedDevices">
+        </div>
+        <!-- Appended tweet-mashup code -->
+        <div id="tweet-mashup-container">
+          <div id="tweet-mashup" data-hashtag="#hackfestISM #GrowMozilla #ConnectedDevices">
+          </div>
+        </div>
+        <!-- end of appended code -->
+      </div>
+    </div>
+  </div>
+  <!-- END Mashup code -->
+
+    <div class="row">
+    <div class="large-7 columns">
+          </div>
+    <div class="large-5 columns">
+      <!-- Next 3 events like this -->
+              <div class="row">
+          <div class="large-1 columns">
+            <div class="pict-icon event large"></div>
+          </div>
+          <div class="large-11 columns events-like-this">
+            <h5>Events like this</h5>
+            <ul>
+                                                                                    <li class="row">
+                    <div class="large-2 columns">
+                      <div class="event-date">
+                        19
+                      </div>
+                    </div>
+                    <div class="event-detail large-10 columns">
+                      <a class="event-title" href="https://reps.mozilla.org/e/wot-footprintsx6/">
+                        WoT FootPrintsX6
+                      </a>
+                      <time datetime=2016-02-19 00:00:00+05:30>
+                                                                        19-21 February 2016
+                                                                    </time>
+                      <p>
+                        <a href="/events/#/search/vadodara/">Vadodara</a>,
+                        <a href="/events/#/search/india/">India</a>
+                      </p>
+                    </div>
+                  </li>
+                                                                                                    <li class="row">
+                    <div class="large-2 columns">
+                      <div class="event-date">
+                        20
+                      </div>
+                    </div>
+                    <div class="event-detail large-10 columns">
+                      <a class="event-title" href="https://reps.mozilla.org/e/barton-hill-app-days-two-day-fxos-hackathon-1/">
+                        Barton Hill Two Day Web-app Hackathon
+                      </a>
+                      <time datetime=2016-02-20 10:00:00+05:30>
+                                                                        20-21 February 2016
+                                                                    </time>
+                      <p>
+                        <a href="/events/#/search/thiruvananthapuram/">Thiruvananthapuram</a>,
+                        <a href="/events/#/search/india/">India</a>
+                      </p>
+                    </div>
+                  </li>
+                                                                                                    <li class="row">
+                    <div class="large-2 columns">
+                      <div class="event-date">
+                        18
+                      </div>
+                    </div>
+                    <div class="event-detail large-10 columns">
+                      <a class="event-title" href="https://reps.mozilla.org/e/code-for-mozilla/">
+                        Code for Mozilla
+                      </a>
+                      <time datetime=2016-03-18 10:30:00+05:30>
+                                                                        18-19 March 2016
+                                                                    </time>
+                      <p>
+                        <a href="/events/#/search/hyderabad/">Hyderabad</a>,
+                        <a href="/events/#/search/india/">India</a>
+                      </p>
+                    </div>
+                  </li>
+                                          </ul>
+          </div>
+        </div>
+            <div class="row">
+        <div class="large-1 columns">
+          <div class="pict-icon large people"></div>
+        </div>
+        <div class="large-11 columns">
+          <p>
+            <span class="label inline">
+              2 attending, including...
+            </span>
+          </p>
+          <!-- Listing of organizer and attendees -->
+                                    <a href="/u/sumantro/"
+                 target="_blank">
+                <div class="event-single-attendee">
+      <div class="row">
+        <div class="large-3 small-3 columns grid-profile-image">
+          <img src="https://seccdn.libravatar.org/avatar/b482e1284165545098ffadae6ef30ad6?default=https%3A%2F%2Freps.mozilla.org%2Fstatic%2Fbase%2Fimg%2Fremo%2Fremo_avatar.png&amp;size=50"
+               class="profiles-people-avatar"
+               alt="Avatar">
+        </div>
+        <div class="large-9 small-9 columns grid-profile-text">
+          <h6>Sumantro Mukherjee</h6>
+          <p class="event-single-attendee-text">
+            Mozilla&#39;s presence organizer
+          </p>
+        </div>
+      </div>
+    </div>
+              </a>
+                                                            <a href="/u/TechnoAyan/"
+                 target="_blank">
+                <div class="event-single-attendee">
+      <div class="row">
+        <div class="large-3 small-3 columns grid-profile-image">
+          <img src="https://seccdn.libravatar.org/avatar/586ed24b7cb69d7abb3224165c4227da?default=https%3A%2F%2Freps.mozilla.org%2Fstatic%2Fbase%2Fimg%2Fremo%2Fremo_avatar.png&amp;size=50"
+               class="profiles-people-avatar"
+               alt="Avatar">
+        </div>
+        <div class="large-9 small-9 columns grid-profile-text">
+          <h6>Ayan Choudhury</h6>
+          <p class="event-single-attendee-text">
+            Rep attendee
+          </p>
+        </div>
+      </div>
+    </div>
+              </a>
+                                  
+          
+          <!-- End of listing of organizer and attendees -->
+          <!-- Attend and de-attend button only visible to Reps -->
+
+          <div class="row">
+                              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <div class="large-2 columns align-right show-for-small">
+    <a href="/e/mozsetup-ism/ical/"
+       class="small button">
+      iCalendar
+    </a>
+      </div>
+
+  </main>
+
+              <div class="end-row"></div>
+          </div> <!-- End of container -->
+  </div> <!-- End of background wrapper -->
+
+  <!-- Footer -->
+      <footer id="colophon" class="hide-on-print">
+  <div class="row">
+
+    <div class="large-4 columns">
+      <a href="http://mozilla.org" class="footer-logo">
+        <img src="/static/base/img/remo/footer-mozilla.png" alt="mozilla">
+      </a>
+    </div>
+
+    <div class="large-4 columns">
+      <p>
+        Portions of this content are ©1998–2016 by individual
+        mozilla.org contributors. Content available under
+        a <a href="https://www.mozilla.org/foundation/licensing/website-content/">
+        Creative Commons license</a>.
+      </p>
+    </div>
+
+    <nav class="large-4 columns">
+      <ul>
+        <li><a href="https://mozilla.org/contact/">Contact Us</a></li>
+        <li><a href="https://www.mozilla.org/privacy/websites/">Privacy Policy</a></li>
+        <li><a href="https://mozilla.org/about/legal.html">Legal Notices</a></li>
+        <li><a href="https://mozilla.org/legal/fraud-report/">Report Trademark Abuse</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</footer>  
+  <!-- Join modal start -->
+  <div id="join-modal" class="reveal-modal hide-on-print">
+    <p class="lead">So, you wanna join us?</p>
+    <h2>Cool!</h2>
+    <p>
+      The Mozilla Reps program is open to all Mozillians who are 18 years
+      of age and above. Before you become a Mozilla Rep, you must
+      complete a short but rigorous application process in order to
+      demonstrate your interest in and motivation for joining the
+      program. Are you ready to take on the challenges and rewards
+      of advancing your leadership to the next level in Mozilla? If
+      your answer is YES, apply to become a Mozilla Rep today!
+    </p>
+    <p>
+      Not sure if you're ready for Mozilla Reps? There are many other
+      ways to take the lead in the Mozilla Community. If you're a
+      student, register for
+      the <a href="https://wiki.mozilla.org/ReMo/Student_Reps">Firefox
+      Student Ambassadors
+      </a> program to gain experience leading projects at your
+      school. And all of our contributor opportunities are available
+      to you on the <a href="https://mozilla.org/contribute">Get
+      Involved homepage</a>.
+    </p>
+    <p>
+      The Mozilla Reps application process involves three simple
+      steps:
+    </p>
+    <ul>
+      <li>
+        <h4>Step 1</h4>
+        <p>Fill out and submit the
+        <a href="https://bugzilla.mozilla.org/form.reps.mentorship">
+          Mozilla Reps application form</a>.
+        A Mozilla Rep mentor will be in touch within 24 hours.</p>
+      </li>
+      <li>
+        <h4>Step 2</h4>
+        <p>If your application is approved, you'll be invited to be
+        interviewed by a member of the advisory council over IRC or
+        IM that same week. The interview lasts about 15 minutes and
+        you will be asked some simple questions about yourself, your
+        experience contributing to the Mozilla project and, of
+        course, your motivation for becoming a MozRep.</p>
+      </li>
+      <li>
+        <h4>Step 3</h4>
+        <p>
+          If you're accepted into the Mozilla Reps program, your
+          mentor will get you started and familiar with the tools at
+          your disposal to start organizing events, requesting
+          budgets, swag, etc. And just like that, you could become a
+          Mozilla Rep!
+        </p>
+      </li>
+    </ul>
+    <p>Thanks for your interest in making the Web better with Mozilla!</p>
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+  <!-- Join modal end -->
+
+  <!-- Included JS Files -->
+  <script type="text/javascript" src="/static/CACHE/js/27cababdd363.js"></script>    <link rel="stylesheet" href="/static/CACHE/css/745c38c6d3fb.css" type="text/css" media="screen,projection,tv" />  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="/static/CACHE/css/d39e3d0d5252.css" type="text/css" />  <![endif]-->
+  <script type="text/javascript" src="/static/CACHE/js/02468552f05a.js"></script>  <script type="text/javascript" src="/static/CACHE/js/fbb1dd401775.js"></script>  <script type="text/javascript" src="https://login.persona.org/include.js"></script>
+<script type="text/javascript" src="/static/browserid/api.js"></script>
+<script type="text/javascript" src="/static/browserid/browserid.js"></script>
+</body>
+
+</html>
